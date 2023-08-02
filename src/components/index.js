@@ -7,5 +7,9 @@ import Header from "./ui/Header";
 import Sidebar from "./ui/Sidebar";
 import MainNav from "./ui/MainNav";
 import Logo from "./ui/Logo";
+import CabinTable from "./cabins/CabinTable";
+import Spinner from "./ui/Spinner";
+import SpinnerMini from "./ui/SpinnerMini";
+import CabinRow from "./cabins/CabinRow"
 
-export { Button, Input, Heading, Row, AppLayout, Header, Sidebar, MainNav, Logo };
+export { Button, Input, Heading, Row, AppLayout, Header, Sidebar, MainNav, Logo, CabinTable, Spinner, SpinnerMini, CabinRow};
