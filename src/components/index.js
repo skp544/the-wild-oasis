@@ -10,6 +10,30 @@ import Logo from "./ui/Logo";
 import CabinTable from "./cabins/CabinTable";
 import Spinner from "./ui/Spinner";
 import SpinnerMini from "./ui/SpinnerMini";
-import CabinRow from "./cabins/CabinRow"
+import CabinRow from "./cabins/CabinRow";
+import Form from "./ui/Form";
+import FileInput from "./ui/FileInput";
+import Textarea from "./ui/TextArea";
+import CreateCabinForm from "./cabins/CreateCabinForm";
+import FormRow from "./ui/FormRow";
 
-export { Button, Input, Heading, Row, AppLayout, Header, Sidebar, MainNav, Logo, CabinTable, Spinner, SpinnerMini, CabinRow};
+export {
+  Button,
+  Input,
+  Heading,
+  Row,
+  AppLayout,
+  Header,
+  Sidebar,
+  MainNav,
+  Logo,
+  CabinTable,
+  Spinner,
+  SpinnerMini,
+  CabinRow,
+  Form,
+  FileInput,
+  Textarea,
+  CreateCabinForm,
+  FormRow,
+};
