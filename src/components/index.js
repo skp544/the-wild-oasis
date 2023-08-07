@@ -16,6 +16,7 @@ import FileInput from "./ui/FileInput";
 import Textarea from "./ui/TextArea";
 import CreateCabinForm from "./cabins/CreateCabinForm";
 import FormRow from "./ui/FormRow";
+import UpdateSettingsForm from "./settings/UpdateSettingsForm";
 
 export {
   Button,
@@ -36,4 +37,5 @@ export {
   Textarea,
   CreateCabinForm,
   FormRow,
+  UpdateSettingsForm,
 };
