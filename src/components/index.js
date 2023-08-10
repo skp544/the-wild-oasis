@@ -17,6 +17,8 @@ import Textarea from "./ui/TextArea";
 import CreateCabinForm from "./cabins/CreateCabinForm";
 import FormRow from "./ui/FormRow";
 import UpdateSettingsForm from "./settings/UpdateSettingsForm";
+import Modal from "./ui/Modal";
+import AddCabin from "./cabins/AddCabin";
 
 export {
   Button,
@@ -38,4 +40,6 @@ export {
   CreateCabinForm,
   FormRow,
   UpdateSettingsForm,
+  Modal,
+  AddCabin,
 };
