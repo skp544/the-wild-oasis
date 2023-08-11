@@ -20,6 +20,8 @@ import UpdateSettingsForm from "./settings/UpdateSettingsForm";
 import Modal from "./ui/Modal";
 import AddCabin from "./cabins/AddCabin";
 import ConfirmDelete from "./ui/ConfirmDelete";
+import Table from "./ui/Table";
+import Menus from "./ui/Menus";
 
 export {
   Button,
@@ -44,4 +46,6 @@ export {
   Modal,
   AddCabin,
   ConfirmDelete,
+  Table,
+  Menus,
 };
