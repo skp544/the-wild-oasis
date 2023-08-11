@@ -1,11 +1,17 @@
-import { CabinTable, Heading, Row, AddCabin } from "../components";
+import {
+  CabinTable,
+  Heading,
+  Row,
+  AddCabin,
+  CabinTableOperations,
+} from "../components";
 
 const Cabins = () => {
   return (
     <>
       <Row type="horizontal">
         <Heading as="h1">All cabins</Heading>
-        <p>Filter / Sort</p>
+        <CabinTableOperations />
       </Row>
 
       <Row>

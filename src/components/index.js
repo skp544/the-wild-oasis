@@ -22,6 +22,9 @@ import AddCabin from "./cabins/AddCabin";
 import ConfirmDelete from "./ui/ConfirmDelete";
 import Table from "./ui/Table";
 import Menus from "./ui/Menus";
+import Filter from "./ui/Filter";
+import CabinTableOperations from "./cabins/CabinTableOperations";
+import TableOperations from "./ui/TableOperations";
 
 export {
   Button,
@@ -48,4 +51,7 @@ export {
   ConfirmDelete,
   Table,
   Menus,
+  Filter,
+  CabinTableOperations,
+  TableOperations,
 };
