@@ -25,6 +25,8 @@ import Menus from "./ui/Menus";
 import Filter from "./ui/Filter";
 import CabinTableOperations from "./cabins/CabinTableOperations";
 import TableOperations from "./ui/TableOperations";
+import SortBy from "./ui/SortBy";
+import Select from "./ui/Select";
 
 export {
   Button,
@@ -54,4 +56,6 @@ export {
   Filter,
   CabinTableOperations,
   TableOperations,
+  SortBy,
+  Select,
 };
