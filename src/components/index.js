@@ -19,6 +19,7 @@ import FormRow from "./ui/FormRow";
 import UpdateSettingsForm from "./settings/UpdateSettingsForm";
 import Modal from "./ui/Modal";
 import AddCabin from "./cabins/AddCabin";
+import ConfirmDelete from "./ui/ConfirmDelete";
 
 export {
   Button,
@@ -42,4 +43,5 @@ export {
   UpdateSettingsForm,
   Modal,
   AddCabin,
+  ConfirmDelete,
 };
