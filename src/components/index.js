@@ -27,6 +27,10 @@ import CabinTableOperations from "./cabins/CabinTableOperations";
 import TableOperations from "./ui/TableOperations";
 import SortBy from "./ui/SortBy";
 import Select from "./ui/Select";
+import BookingTable from "./bookings/BookingTable";
+import BookingRow from "./bookings/BookingRow";
+import Tag from "./ui/Tag";
+import Empty from "./ui/Empty";
 
 export {
   Button,
@@ -58,4 +62,8 @@ export {
   TableOperations,
   SortBy,
   Select,
+  BookingTable,
+  BookingRow,
+  Tag,
+  Empty,
 };

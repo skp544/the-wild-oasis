@@ -1,4 +1,4 @@
-import { Spinner, CabinRow, Table, Menus } from "../";
+import { Spinner, CabinRow, Table, Menus, Empty } from "../";
 import { useCabins } from "./useCabins";
 import { useSearchParams } from "react-router-dom";
 
@@ -8,6 +8,8 @@ const CabinTable = () => {
   const [searchParams] = useSearchParams();
 
   if (isLoading) return <Spinner />;
+
+  if (!cabins.length) return <Empty resourceName={"cabins"} />;
 
   // filter
   const filterValue = searchParams.get("discount") || "all";
