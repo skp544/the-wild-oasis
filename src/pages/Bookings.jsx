@@ -1,11 +1,16 @@
-import { Row, Heading, BookingTable } from "../components";
+import {
+  Row,
+  Heading,
+  BookingTable,
+  BookingTableOperations,
+} from "../components";
 
 const Bookings = () => {
   return (
     <>
       <Row type="horizontal">
         <Heading as="h1">All bookings</Heading>
-        <p>TEST</p>
+        <BookingTableOperations />
       </Row>
 
       <BookingTable />
