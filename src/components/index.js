@@ -32,6 +32,7 @@ import BookingRow from "./bookings/BookingRow";
 import Tag from "./ui/Tag";
 import Empty from "./ui/Empty";
 import BookingTableOperations from "./bookings/BookingTableOperations";
+import Pagination from "./ui/Pagination";
 
 export {
   Button,
@@ -68,4 +69,5 @@ export {
   Tag,
   Empty,
   BookingTableOperations,
+  Pagination,
 };

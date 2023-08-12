@@ -1,4 +1,4 @@
-import { BookingRow, Empty, Menus, Spinner, Table } from "../";
+import { BookingRow, Empty, Menus, Pagination, Spinner, Table } from "../";
 import { useBookings } from "./useBookings";
 
 const BookingTable = () => {
@@ -26,6 +26,10 @@ const BookingTable = () => {
             <BookingRow key={booking.id} booking={booking} />
           )}
         />
+
+        <Table.Footer>
+          <Pagination count={15} />
+        </Table.Footer>
       </Table>
     </Menus>
   );
