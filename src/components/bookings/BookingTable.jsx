@@ -2,7 +2,7 @@ import { BookingRow, Empty, Menus, Pagination, Spinner, Table } from "../";
 import { useBookings } from "./useBookings";
 
 const BookingTable = () => {
-  const { bookings, isLoading } = useBookings();
+  const { bookings, isLoading, count } = useBookings();
 
   if (isLoading) return <Spinner />;
 
@@ -28,7 +28,7 @@ const BookingTable = () => {
         />
 
         <Table.Footer>
-          <Pagination count={15} />
+          <Pagination count={count} />
         </Table.Footer>
       </Table>
     </Menus>
