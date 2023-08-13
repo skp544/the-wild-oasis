@@ -33,6 +33,12 @@ import Tag from "./ui/Tag";
 import Empty from "./ui/Empty";
 import BookingTableOperations from "./bookings/BookingTableOperations";
 import Pagination from "./ui/Pagination";
+import BookingDetail from "./bookings/BookingDetail";
+import ButtonText from "./ui/ButtonText";
+import BookingDataBox from "./bookings/BookingDataBox";
+import ButtonGroup from "./ui/ButtonGroup";
+import DataItem from "./ui/DataItem";
+import { Flag } from "./ui/Flag";
 
 export {
   Button,
@@ -70,4 +76,10 @@ export {
   Empty,
   BookingTableOperations,
   Pagination,
+  BookingDetail,
+  ButtonText,
+  BookingDataBox,
+  ButtonGroup,
+  DataItem,
+  Flag,
 };
