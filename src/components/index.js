@@ -39,6 +39,8 @@ import BookingDataBox from "./bookings/BookingDataBox";
 import ButtonGroup from "./ui/ButtonGroup";
 import DataItem from "./ui/DataItem";
 import { Flag } from "./ui/Flag";
+import CheckinBooking from "./check-in-out/CheckinBooking";
+import Checkbox from "./ui/Checkbox";
 
 export {
   Button,
@@ -82,4 +84,6 @@ export {
   ButtonGroup,
   DataItem,
   Flag,
+  CheckinBooking,
+  Checkbox,
 };
