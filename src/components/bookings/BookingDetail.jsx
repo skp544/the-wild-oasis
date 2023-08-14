@@ -6,7 +6,9 @@ import {
   Button,
   ButtonGroup,
   ButtonText,
+  ConfirmDelete,
   Heading,
+  Modal,
   Row,
   Spinner,
   Tag,
@@ -14,6 +16,8 @@ import {
 
 import { useMoveBack } from "../../hooks/useMoveBack";
 import { useBooking } from "./useBooking";
+import { useCheckout } from "../check-in-out/useCheckout";
+import { useDeleteBooking } from "./useDeleteBooking";
 
 const HeadingGroup = styled.div`
   display: flex;
@@ -24,6 +28,8 @@ const HeadingGroup = styled.div`
 const BookingDetail = () => {
   const navigate = useNavigate();
   const { booking, isLoading } = useBooking();
+  const { checkout, isCheckingOut } = useCheckout();
+  const { deleteBooking, isDeleting } = useDeleteBooking();
 
   const moveBack = useMoveBack();
 
@@ -55,6 +61,29 @@ const BookingDetail = () => {
             Check In
           </Button>
         )}
+
+        {status === "checked-in" && (
+          <Button onClick={() => checkout(bookingId)} disabled={isCheckingOut}>
+            Check Out
+          </Button>
+        )}
+
+        <Modal>
+          <Modal.Open opens={"delete"}>
+            <Button variation="danger">Delete Booking</Button>
+          </Modal.Open>
+          <Modal.Window name={"delete"}>
+            <ConfirmDelete
+              resourceName={"booking"}
+              disabled={isDeleting}
+              onConfirm={() =>
+                deleteBooking(bookingId, {
+                  onSettled: () => navigate(-1),
+                })
+              }
+            />
+          </Modal.Window>
+        </Modal>
 
         <Button variation="secondary" onClick={moveBack}>
           Back
