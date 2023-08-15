@@ -44,6 +44,8 @@ import Checkbox from "./ui/Checkbox";
 import FormRowVertical from "./ui/FormRowVertical";
 import LoginForm from "./authentication/LoginForm";
 import ProtectedRoute from "./ui/ProtectedRoute";
+import Logout from "./authentication/Logout";
+import ButtonIcon from "./ui/ButtonIcon";
 
 export {
   // SETTINGS
@@ -68,6 +70,7 @@ export {
 
   // AUTHENTICATION
   LoginForm,
+  Logout,
 
   // UI
   Button,
@@ -103,4 +106,5 @@ export {
   Checkbox,
   FormRowVertical,
   ProtectedRoute,
+  ButtonIcon,
 };

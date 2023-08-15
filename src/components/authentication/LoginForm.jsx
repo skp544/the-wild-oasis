@@ -15,13 +15,14 @@ const LoginForm = () => {
       return;
     }
 
-    login({ email, password },
+    login(
+      { email, password },
       {
         onSettled: () => {
-          setEmail(""),
-          setPassword(""),
-        }
-      });
+          setEmail(""), setPassword("");
+        },
+      }
+    );
   };
 
   return (
