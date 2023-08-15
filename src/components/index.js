@@ -41,6 +41,8 @@ import DataItem from "./ui/DataItem";
 import { Flag } from "./ui/Flag";
 import CheckinBooking from "./check-in-out/CheckinBooking";
 import Checkbox from "./ui/Checkbox";
+import FormRowVertical from "./ui/FormRowVertical";
+import LoginForm from "./authentication/LoginForm";
 
 export {
   Button,
@@ -86,4 +88,6 @@ export {
   Flag,
   CheckinBooking,
   Checkbox,
+  FormRowVertical,
+  LoginForm,
 };
