@@ -43,8 +43,33 @@ import CheckinBooking from "./check-in-out/CheckinBooking";
 import Checkbox from "./ui/Checkbox";
 import FormRowVertical from "./ui/FormRowVertical";
 import LoginForm from "./authentication/LoginForm";
+import ProtectedRoute from "./ui/ProtectedRoute";
 
 export {
+  // SETTINGS
+  UpdateSettingsForm,
+
+  // CABINS
+  CabinTable,
+  CabinRow,
+  CreateCabinForm,
+  AddCabin,
+  CabinTableOperations,
+
+  // CHECK IN OUT
+  CheckinBooking,
+
+  // BOOKINGS
+  BookingTable,
+  BookingRow,
+  BookingDataBox,
+  BookingTableOperations,
+  BookingDetail,
+
+  // AUTHENTICATION
+  LoginForm,
+
+  // UI
   Button,
   Input,
   Heading,
@@ -54,40 +79,28 @@ export {
   Sidebar,
   MainNav,
   Logo,
-  CabinTable,
   Spinner,
   SpinnerMini,
-  CabinRow,
   Form,
   FileInput,
   Textarea,
-  CreateCabinForm,
   FormRow,
-  UpdateSettingsForm,
   Modal,
-  AddCabin,
   ConfirmDelete,
   Table,
   Menus,
   Filter,
-  CabinTableOperations,
   TableOperations,
   SortBy,
   Select,
-  BookingTable,
-  BookingRow,
   Tag,
   Empty,
-  BookingTableOperations,
   Pagination,
-  BookingDetail,
   ButtonText,
-  BookingDataBox,
   ButtonGroup,
   DataItem,
   Flag,
-  CheckinBooking,
   Checkbox,
   FormRowVertical,
-  LoginForm,
+  ProtectedRoute,
 };
