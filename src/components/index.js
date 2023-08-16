@@ -46,6 +46,7 @@ import LoginForm from "./authentication/LoginForm";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import Logout from "./authentication/Logout";
 import ButtonIcon from "./ui/ButtonIcon";
+import SignupForm from "./authentication/SignupForm";
 
 export {
   // SETTINGS
@@ -71,6 +72,7 @@ export {
   // AUTHENTICATION
   LoginForm,
   Logout,
+  SignupForm,
 
   // UI
   Button,
