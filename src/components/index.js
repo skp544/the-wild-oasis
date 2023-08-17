@@ -47,6 +47,8 @@ import ProtectedRoute from "./ui/ProtectedRoute";
 import Logout from "./authentication/Logout";
 import ButtonIcon from "./ui/ButtonIcon";
 import SignupForm from "./authentication/SignupForm";
+import HeaderMenu from "./ui/HeaderMenu";
+import UserAvatar from "./authentication/UserAvatar";
 
 export {
   // SETTINGS
@@ -75,6 +77,8 @@ export {
   SignupForm,
 
   // UI
+  UserAvatar,
+  HeaderMenu,
   Button,
   Input,
   Heading,
