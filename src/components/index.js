@@ -49,6 +49,8 @@ import ButtonIcon from "./ui/ButtonIcon";
 import SignupForm from "./authentication/SignupForm";
 import HeaderMenu from "./ui/HeaderMenu";
 import UserAvatar from "./authentication/UserAvatar";
+import UpdateUserDataForm from "./authentication/UpdateUserDataForm";
+import UpdatePasswordForm from "./authentication/UpdatePasswordForm";
 
 export {
   // SETTINGS
@@ -75,9 +77,11 @@ export {
   LoginForm,
   Logout,
   SignupForm,
+  UserAvatar,
+  UpdatePasswordForm,
+  UpdateUserDataForm,
 
   // UI
-  UserAvatar,
   HeaderMenu,
   Button,
   Input,
