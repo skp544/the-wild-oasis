@@ -56,6 +56,12 @@ import DashboardLayout from "./dashboard/DashboardLayout";
 import DashboardFilter from "./dashboard/DashboardFilter";
 import Stats from "./dashboard/Stats";
 import Stat from "./dashboard/Stat";
+import DashboardBox from "./dashboard/DashboardBox";
+import SalesChart from "./dashboard/SalesChart";
+import DurationChart from "./dashboard/DurationChart";
+import TodayActivity from "./check-in-out/TodayActivity";
+import TodayItem from "./check-in-out/TodayItem";
+import CheckoutButton from "./check-in-out/CheckoutButton";
 
 export {
   // SETTINGS
@@ -66,6 +72,9 @@ export {
   DashboardFilter,
   Stats,
   Stat,
+  DashboardBox,
+  SalesChart,
+  DurationChart,
 
   // CABINS
   CabinTable,
@@ -76,6 +85,9 @@ export {
 
   // CHECK IN OUT
   CheckinBooking,
+  TodayActivity,
+  TodayItem,
+  CheckoutButton,
 
   // BOOKINGS
   BookingTable,

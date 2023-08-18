@@ -1,5 +1,4 @@
 import { styled } from "styled-components";
-
 import { MainNav, Logo } from "../";
 
 const StyledSidebar = styled.aside`
