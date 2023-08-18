@@ -62,6 +62,7 @@ import DurationChart from "./dashboard/DurationChart";
 import TodayActivity from "./check-in-out/TodayActivity";
 import TodayItem from "./check-in-out/TodayItem";
 import CheckoutButton from "./check-in-out/CheckoutButton";
+import ErrorFallback from "./ui/ErrorFallback";
 
 export {
   // SETTINGS
@@ -105,6 +106,7 @@ export {
   UpdateUserDataForm,
 
   // UI
+  ErrorFallback,
   DarkModeToggle,
   HeaderMenu,
   Button,

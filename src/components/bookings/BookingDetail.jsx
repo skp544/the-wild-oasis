@@ -7,6 +7,7 @@ import {
   ButtonGroup,
   ButtonText,
   ConfirmDelete,
+  Empty,
   Heading,
   Modal,
   Row,
@@ -34,6 +35,7 @@ const BookingDetail = () => {
   const moveBack = useMoveBack();
 
   if (isLoading) return <Spinner />;
+  if (!booking) return <Empty resourceName="booking" />;
 
   const statusToTagName = {
     unconfirmed: "blue",
