@@ -51,6 +51,7 @@ import HeaderMenu from "./ui/HeaderMenu";
 import UserAvatar from "./authentication/UserAvatar";
 import UpdateUserDataForm from "./authentication/UpdateUserDataForm";
 import UpdatePasswordForm from "./authentication/UpdatePasswordForm";
+import DarkModeToggle from "./ui/DarkModeToggle";
 
 export {
   // SETTINGS
@@ -82,6 +83,7 @@ export {
   UpdateUserDataForm,
 
   // UI
+  DarkModeToggle,
   HeaderMenu,
   Button,
   Input,

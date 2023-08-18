@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { ButtonIcon, Logout } from "../";
+import { ButtonIcon, DarkModeToggle, Logout } from "../";
 import { HiOutlineUser } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
 
@@ -17,6 +17,10 @@ const HeaderMenu = () => {
         <ButtonIcon onClick={() => navigate("/account")}>
           <HiOutlineUser />
         </ButtonIcon>
+      </li>
+
+      <li>
+        <DarkModeToggle />
       </li>
 
       <li>
