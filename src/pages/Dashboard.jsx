@@ -1,5 +1,16 @@
+import { DashboardFilter, DashboardLayout, Heading, Row } from "../components";
+
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <>
+      <Row type="horizontal">
+        <Heading as="h1">Dashboard</Heading>
+        <DashboardFilter />
+      </Row>
+
+      <DashboardLayout />
+    </>
+  );
 };
 
 export default Dashboard;

@@ -52,10 +52,20 @@ import UserAvatar from "./authentication/UserAvatar";
 import UpdateUserDataForm from "./authentication/UpdateUserDataForm";
 import UpdatePasswordForm from "./authentication/UpdatePasswordForm";
 import DarkModeToggle from "./ui/DarkModeToggle";
+import DashboardLayout from "./dashboard/DashboardLayout";
+import DashboardFilter from "./dashboard/DashboardFilter";
+import Stats from "./dashboard/Stats";
+import Stat from "./dashboard/Stat";
 
 export {
   // SETTINGS
   UpdateSettingsForm,
+
+  // Dashboard
+  DashboardLayout,
+  DashboardFilter,
+  Stats,
+  Stat,
 
   // CABINS
   CabinTable,
